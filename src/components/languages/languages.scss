@@ -1,0 +1,34 @@
+@import "../../global.scss";
+
+.languages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  .item {
+    width: 700px;
+    height: 100%;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .iconContainer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 10px;
+    }
+
+    i {
+      font-size: 40px;
+    }
+  }
+}
